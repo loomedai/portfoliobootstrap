@@ -4,6 +4,52 @@
   width: 35rem;
 }
 
+.introtxt {
+  font-size: 100px;
+}
+
+.img1 {
+  height: 200px;
+}
+
+html, body {
+  width: 100%;
+  overscroll-behavior: none;
+  min-height: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.gallery {
+  height: 200vh;
+}
+
+.img {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  z-index: -1;
+}
+.img:before {
+  content: "";
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  border-right: 1px solid black;
+}
+
+.line {
+  border-right: 1px solid black;
+}
+
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -7489,8 +7535,28 @@ textarea.form-control-lg {
   top: 0 !important;
 }
 
+.top-10 {
+  top: 10% !important;
+}
+
 .top-50 {
   top: 50% !important;
+}
+
+.top-70 {
+  top: 70% !important;
+}
+
+.top-75 {
+  top: 75% !important;
+}
+
+.top-80 {
+  top: 80% !important;
+}
+
+.top-90 {
+  top: 90% !important;
 }
 
 .top-100 {
@@ -7501,8 +7567,28 @@ textarea.form-control-lg {
   bottom: 0 !important;
 }
 
+.bottom-10 {
+  bottom: 10% !important;
+}
+
 .bottom-50 {
   bottom: 50% !important;
+}
+
+.bottom-70 {
+  bottom: 70% !important;
+}
+
+.bottom-75 {
+  bottom: 75% !important;
+}
+
+.bottom-80 {
+  bottom: 80% !important;
+}
+
+.bottom-90 {
+  bottom: 90% !important;
 }
 
 .bottom-100 {
@@ -7513,8 +7599,28 @@ textarea.form-control-lg {
   left: 0 !important;
 }
 
+.start-10 {
+  left: 10% !important;
+}
+
 .start-50 {
   left: 50% !important;
+}
+
+.start-70 {
+  left: 70% !important;
+}
+
+.start-75 {
+  left: 75% !important;
+}
+
+.start-80 {
+  left: 80% !important;
+}
+
+.start-90 {
+  left: 90% !important;
 }
 
 .start-100 {
@@ -7525,8 +7631,28 @@ textarea.form-control-lg {
   right: 0 !important;
 }
 
+.end-10 {
+  right: 10% !important;
+}
+
 .end-50 {
   right: 50% !important;
+}
+
+.end-70 {
+  right: 70% !important;
+}
+
+.end-75 {
+  right: 75% !important;
+}
+
+.end-80 {
+  right: 80% !important;
+}
+
+.end-90 {
+  right: 90% !important;
 }
 
 .end-100 {

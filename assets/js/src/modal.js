@@ -18,6 +18,7 @@ import { enableDismissTrigger } from './util/component-functions.js'
  * Constants
  */
 
+
 const NAME = 'modal'
 const DATA_KEY = 'bs.modal'
 const EVENT_KEY = `.${DATA_KEY}`

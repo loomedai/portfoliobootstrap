@@ -18,6 +18,8 @@ import Tab from './src/tab.js'
 import Toast from './src/toast.js'
 import Tooltip from './src/tooltip.js'
 
+import contact from './src/contact.js'
+
 export default {
   Alert,
   Button,
@@ -30,5 +32,6 @@ export default {
   ScrollSpy,
   Tab,
   Toast,
-  Tooltip
+  Tooltip,
+  contact
 }
